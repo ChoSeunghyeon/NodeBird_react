@@ -5,14 +5,21 @@
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "dev": "cross-env NODE_OPTIONS=--openssl-legacy-provider next -p 3000"
+    "dev": "cross-env NODE_OPTIONS=--openssl-legacy-provider next -p 3060"
   },
   "author": "SeunghyeonCho",
   "license": "ISC",
   "dependencies": {
     "cross-env": "^7.0.3",
     "next": "^9.5.5",
+    "prop-types": "^15.8.1",
     "react": "^16.14.0",
     "react-dom": "^16.14.0"
+  },
+  "devDependencies": {
+    "eslint": "^8.57.0",
+    "eslint-plugin-import": "^2.29.1",
+    "eslint-plugin-react": "^7.34.1",
+    "eslint-plugin-react-hooks": "^4.6.0"
   }
 }
